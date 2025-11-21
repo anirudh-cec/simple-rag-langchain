@@ -6,38 +6,38 @@
 # ============================================================================
 # CORE LANGCHAIN PACKAGES
 # ============================================================================
-langchain==1.0.5
-langchain-core==1.0.4
-langchain-community==0.4.1
-langchain-text-splitters==0.4.1
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
 
 # ============================================================================
 # LLM & EMBEDDING PROVIDERS
 # ============================================================================
 # OpenAI (required)
-langchain-openai==0.3.5
-openai==1.64.0
+langchain-openai
+openai
 
 # Google Gemini (optional - for Notebook 04)
-langchain-google-genai==2.0.10
-google-generativeai==0.8.4
+langchain-google-genai
+google-generativeai
 
 # HuggingFace (optional - for local embeddings)
-langchain-huggingface==0.1.6
-sentence-transformers==3.4.1
+langchain-huggingface
+sentence-transformers
 
 # Ollama (optional - for local LLMs)
-langchain-ollama==0.2.3
+#langchain-ollama==0.2.3
 
 # ============================================================================
 # VECTOR STORES
 # ============================================================================
 # FAISS (required for Notebook 05)
-faiss-cpu==1.9.0.post1
+faiss-cpu
 
 # Chroma (required for Notebook 05)
-langchain-chroma==0.2.1
-chromadb==0.6.5
+langchain-chroma
+chromadb
 
 # Qdrant (optional - for advanced users)
 # langchain-qdrant==0.2.3
@@ -51,11 +51,11 @@ chromadb==0.6.5
 # DOCUMENT LOADERS
 # ============================================================================
 # PDF Processing (required)
-pypdf==5.3.2
+pypdf
 
 # Web scraping (required for Notebook 02)
-beautifulsoup4==4.13.4
-lxml==5.4.0
+beautifulsoup4
+lxml
 
 # Markdown (optional)
 # unstructured==0.18.0
@@ -64,18 +64,18 @@ lxml==5.4.0
 # UTILITIES
 # ============================================================================
 # Environment Management (required)
-python-dotenv==1.0.1
+python-dotenv
 
 # Token counting (required for cost estimation)
-tiktoken==0.9.0
+tiktoken
 
 # Jupyter Notebooks (required)
-jupyter==1.1.1
-notebook==7.4.1
-ipykernel==6.30.1
+jupyter
+notebook
+ipykernel
 
 # Numpy (required for similarity calculations)
-numpy==2.3.0
+numpy
 
 # ============================================================================
 # DEVELOPMENT & TESTING (optional)
